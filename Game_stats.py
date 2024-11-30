@@ -1,3 +1,6 @@
+#importo este módulo a la librería porque quiero pausar unos segundos antes de que cierre el programa para que se vea el mensaje de despedida.
+import time
+
 #Vamos a emplear de las colecciones vistas en clase las listas para esta tarea. A continuación las definimos.
 lista_anotaciones = []
 lista_dorsales = []
@@ -57,6 +60,7 @@ def cierre():
     reinicio = input("¿Quieres cerrar el programa? ")
     if reinicio.lower() == "y" or reinicio.lower() == "yes" or reinicio.lower() == "si" or reinicio.lower() == "s":
         print("Sayonara, baby")
+        time.sleep(2)
         quit()
     else:
         print("Okey, regresamos Doc")
