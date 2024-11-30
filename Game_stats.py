@@ -42,10 +42,10 @@ def stats():
 
     # Determinar al jugador con la mayor anotación
     if lista_anotaciones:
-        max_anotacion = max(lista_anotaciones)
-        max_index = lista_anotaciones.index(max_anotacion)
-        maximo_anotador = lista_jugadores[max_index]
-        print(f"El máximo anotador ha sido {maximo_anotador} con {max_anotacion} puntos.")
+        maxima_anotacion = max(lista_anotaciones)
+        nombre_anotador = lista_anotaciones.index(maxima_anotacion)
+        maximo_anotador = lista_jugadores[nombre_anotador]
+        print(f"El máximo anotador ha sido {maximo_anotador} con {maxima_anotacion} puntos.")
 
 # Función para el cierre o reinicio del programa
 def cierre():
