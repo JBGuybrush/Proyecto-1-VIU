@@ -55,7 +55,7 @@ def stats():
 # Función para el cierre o reinicio del programa
 def cierre():
     reinicio = input("¿Quieres cerrar el programa? ")
-    if reinicio.lower() == "y" or reinicio.lower() == "yes" or reinicio.lower() == "si":
+    if reinicio.lower() == "y" or reinicio.lower() == "yes" or reinicio.lower() == "si" or reinicio.lower() == "s":
         print("Sayonara, baby")
         quit()
     else:
