@@ -5,9 +5,9 @@ lista_jugadores = []
 
 # Función para la toma de datos del equipo, jugadores y anotaciones
 def entry():
-    for i in range(2):
+    while True:
         # Solicitamos los datos de cada jugador
-        jugador = input(f"Introduce el nombre del jugador {i+1} >> ").strip()
+        jugador = input(f"Introduce el nombre del jugador >> ").strip()
         try:
             dorsal = int(input(f"Introduce el dorsal del jugador {jugador} >> "))
         except ValueError:
@@ -29,10 +29,15 @@ def entry():
             print("Lo siento, debe introducir números enteros.")
             return entry()
 
-        # Añadimos los datos a las listas que tenemos creadas
+        # Recopilamos a continuación los datos introducidos por el usuario en las listas que tenemos creadas
         lista_jugadores.append(jugador)
         lista_dorsales.append(dorsal)
         lista_anotaciones.append(canastas_de_1 + (canastas_de_2*2) + (canastas_de_3*3))
+
+        print("¿Quieres introducir otro jugador?")
+        continuar = input("si o no:")
+        if continuar.lower() != "si":
+            break
 
 # Función para imprimir las colecciones y determinar el máximo anotador
 def stats():
