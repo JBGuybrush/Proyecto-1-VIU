@@ -60,7 +60,7 @@ def cierre():
     reinicio = input("¿Quieres cerrar el programa? ")
     if reinicio.lower() == "y" or reinicio.lower() == "yes" or reinicio.lower() == "si" or reinicio.lower() == "s":
         print("Sayonara, baby")
-        time.sleep(2)
+        time.sleep(2) #retrasamos 2 segundos el cierre del programa para que el usuario vea el mensaje.
         quit()
     else:
         print("Okey, regresamos Doc")

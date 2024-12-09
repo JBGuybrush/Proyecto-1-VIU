@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be9f5290-6d3a-4715-9870-57c6bf3f3be2" name="Changes" comment="Basket Stats project">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="be9f5290-6d3a-4715-9870-57c6bf3f3be2" name="Changes" comment="Basket Stats project" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -116,6 +114,7 @@
       <workItem from="1732814290521" duration="1008000" />
       <workItem from="1732815342862" duration="6825000" />
       <workItem from="1732969879742" duration="21761000" />
+      <workItem from="1732999125773" duration="357000" />
     </task>
     <task id="LOCAL-00001" summary="Basket Stats project">
       <option name="closed" value="true" />
@@ -189,7 +188,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732998208450</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Basket Stats project">
+      <option name="closed" value="true" />
+      <created>1732999471339</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1732999471339</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
